@@ -1,7 +1,6 @@
 {
   "widgets": [
     {
-      "instanceId": "widget_1788262108873",
       "widgetId": "bio",
       "name": "Bio Widget",
       "position": {
@@ -10,36 +9,33 @@
       },
       "size": {
         "width": 800,
-        "height": 206
+        "height": 240
       },
       "config": {
-        "accentColor": "#ff4a4a",
-        "textAlign": "left",
-        "animationType": "typewriter",
-        "animationPreviewKey": 5,
-        "animationDuration": 1500,
-        "animationEasing": "ease-in-out",
-        "lockAspectRatio": false,
-        "hideBorder": false,
+        "backgroundColor": "transparent",
+        "customBio": "My name is Omar, an aspiring Fullstack Developer.\n‎ \n‎🧩 Currently expanding my skillset in fullstack development\n🎯 Focused on writing clean, well-structured code and learning best practices\n📚 Continuously learning \n🤝 Open to collaborations, internships, and junior opportunities",
+        "hideBorder": true,
         "hideDecorations": true,
-        "customBio": "My name is Omar, an aspiring Fullstack Developer.\n‎ \n🧩 Currently expanding my skillset in fullstack development\n🎯 Focused on writing clean, well-structured code and learning best practices\n📚 Continuously learning\n🤝 Open to collaborations, internships, and junior opportunities",
-        "showTitle": true
+        "textAlign": "left",
+        "animationType": "none",
+        "animationPreviewKey": 2,
+        "customTitle": "About me"
       },
       "locked": false,
       "visible": true,
-      "zIndex": 4
+      "zIndex": 3,
+      "instanceId": "widget_1788263496458_2"
     },
     {
-      "instanceId": "widget_1788262370789",
       "widgetId": "tech-stack",
       "name": "Tech-stack Widget",
       "position": {
         "x": 0,
-        "y": 214
+        "y": 264
       },
       "size": {
         "width": 800,
-        "height": 140
+        "height": 136
       },
       "config": {
         "selectedTechs": [
@@ -50,26 +46,26 @@
           "react",
           "nextjs",
           "tailwind",
-          "vite"
+          "git",
+          "github"
         ],
+        "backgroundColor": "transparent",
+        "perLine": 12,
         "hideBorder": true,
-        "perLine": 8,
-        "animationType": "slide-up",
-        "animationPreviewKey": 19,
-        "animationDuration": 1500,
-        "showTitle": true
+        "hideDecorations": true
       },
       "locked": false,
       "visible": true,
-      "zIndex": 3
+      "zIndex": 4,
+      "instanceId": "widget_1788263496458_3"
     },
     {
-      "instanceId": "widget_1788262674821",
+      "instanceId": "widget_1788263811804",
       "widgetId": "repositories",
       "name": "Repositories Widget",
       "position": {
         "x": 0,
-        "y": 354
+        "y": 424
       },
       "size": {
         "width": 800,
@@ -81,26 +77,27 @@
         "maxRepos": 4,
         "repoSortBy": "updated",
         "showRepoStars": false,
-        "showRepoDesc": true,
         "showRepoUpdated": true,
-        "animationType": "fade-in",
-        "animationPreviewKey": 1,
-        "animationDuration": 1500,
+        "lockAspectRatio": false,
+        "showTitle": true,
+        "backgroundColor": "transparent",
         "hideBorder": true,
         "hideDecorations": true,
-        "accentColor": "#ffffff"
+        "accentColor": "#ff4a4a",
+        "textColor": "#f0f0f0",
+        "borderColor": "#060606"
       },
       "locked": false,
       "visible": true,
-      "zIndex": 5
+      "zIndex": 3
     },
     {
-      "instanceId": "widget_1788262826916",
+      "instanceId": "widget_1788263927920",
       "widgetId": "codeweb-social-badge",
       "name": "Codeweb-social-badge Widget",
       "position": {
         "x": 0,
-        "y": 610
+        "y": 696
       },
       "size": {
         "width": 800,
@@ -108,14 +105,21 @@
       },
       "config": {
         "platforms": [
-          "github",
+          "portfolio",
+          "linkedin",
           "gmail",
-          "portfolio"
+          "github"
         ],
+        "renderMode": "multi",
+        "staticMode": false,
+        "showText": false,
+        "showTitle": true,
+        "customTitle": "Socials",
         "label_github": "html-error404",
         "label_gmail": "html-error404@gmail.com",
-        "label_portfolio": "html-error404/com",
-        "accentColor": "transparent"
+        "label_portfolio": "html-error404.com",
+        "showIcons": true,
+        "label_linkedin": "https://www.linkedin.com/in/omar-berrhazi/"
       },
       "locked": false,
       "visible": true,
@@ -123,16 +127,16 @@
     }
   ],
   "globalStyles": {
-    "backgroundColor": "#060606",
-    "textColor": "#e5e5e5",
-    "accentColor": "#c5ff4a",
-    "borderColor": "#252525",
-    "fontFamily": "'JetBrains Mono', monospace",
-    "borderRadius": 0,
+    "backgroundColor": "#09090b",
+    "textColor": "#f4f4f5",
+    "accentColor": "#a1a1aa",
+    "borderColor": "#27272a",
+    "fontFamily": "'Inter Tight', sans-serif",
+    "borderRadius": 12,
     "padding": 24,
     "themeMode": "dark",
-    "templateStyle": "native",
-    "transparentBackground": false
+    "templateStyle": "bento_grid",
+    "transparentBackground": true
   },
-  "templateId": "terminal"
+  "templateId": "bento_grid"
 }
