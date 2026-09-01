@@ -1,7 +1,13 @@
 <h1 align="left">Intro</h1>
 
 ###
-
+<a href="https://gitascii.com">
+  <img
+    src="https://gitascii.com/api/html-error404?v=1788263327282"
+    alt="GitAscii Widget"
+    width="100%"
+  />
+</a>
 <p align="center">My name is Omar, an aspiring Fullstack Developer.</p>
 
 ###
