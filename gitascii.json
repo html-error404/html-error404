@@ -1,0 +1,138 @@
+{
+  "widgets": [
+    {
+      "instanceId": "widget_1788262108873",
+      "widgetId": "bio",
+      "name": "Bio Widget",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 800,
+        "height": 206
+      },
+      "config": {
+        "accentColor": "#ff4a4a",
+        "textAlign": "left",
+        "animationType": "typewriter",
+        "animationPreviewKey": 5,
+        "animationDuration": 1500,
+        "animationEasing": "ease-in-out",
+        "lockAspectRatio": false,
+        "hideBorder": false,
+        "hideDecorations": true,
+        "customBio": "My name is Omar, an aspiring Fullstack Developer.\n‎ \n🧩 Currently expanding my skillset in fullstack development\n🎯 Focused on writing clean, well-structured code and learning best practices\n📚 Continuously learning\n🤝 Open to collaborations, internships, and junior opportunities",
+        "showTitle": true
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4
+    },
+    {
+      "instanceId": "widget_1788262370789",
+      "widgetId": "tech-stack",
+      "name": "Tech-stack Widget",
+      "position": {
+        "x": 0,
+        "y": 214
+      },
+      "size": {
+        "width": 800,
+        "height": 140
+      },
+      "config": {
+        "selectedTechs": [
+          "html",
+          "css",
+          "js",
+          "ts",
+          "react",
+          "nextjs",
+          "tailwind",
+          "vite"
+        ],
+        "hideBorder": true,
+        "perLine": 8,
+        "animationType": "slide-up",
+        "animationPreviewKey": 19,
+        "animationDuration": 1500,
+        "showTitle": true
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3
+    },
+    {
+      "instanceId": "widget_1788262674821",
+      "widgetId": "repositories",
+      "name": "Repositories Widget",
+      "position": {
+        "x": 0,
+        "y": 354
+      },
+      "size": {
+        "width": 800,
+        "height": 248
+      },
+      "config": {
+        "repoCardHeight": 66,
+        "repoViewMode": "grid",
+        "maxRepos": 4,
+        "repoSortBy": "updated",
+        "showRepoStars": false,
+        "showRepoDesc": true,
+        "showRepoUpdated": true,
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "animationDuration": 1500,
+        "hideBorder": true,
+        "hideDecorations": true,
+        "accentColor": "#ffffff"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "instanceId": "widget_1788262826916",
+      "widgetId": "codeweb-social-badge",
+      "name": "Codeweb-social-badge Widget",
+      "position": {
+        "x": 0,
+        "y": 610
+      },
+      "size": {
+        "width": 800,
+        "height": 44
+      },
+      "config": {
+        "platforms": [
+          "github",
+          "gmail",
+          "portfolio"
+        ],
+        "label_github": "html-error404",
+        "label_gmail": "html-error404@gmail.com",
+        "label_portfolio": "html-error404/com",
+        "accentColor": "transparent"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#060606",
+    "textColor": "#e5e5e5",
+    "accentColor": "#c5ff4a",
+    "borderColor": "#252525",
+    "fontFamily": "'JetBrains Mono', monospace",
+    "borderRadius": 0,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "native",
+    "transparentBackground": false
+  },
+  "templateId": "terminal"
+}
