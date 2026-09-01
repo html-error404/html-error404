@@ -1,4 +1,4 @@
-<a href="https://gitascii.com">
+<a>
   <img
     src="https://gitascii.com/api/html-error404?v=1788268698240"
     alt="GitAscii Widget"
